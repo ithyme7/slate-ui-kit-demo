@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slate UI Kit — Free sample preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #0e151d;
+      --panel: #16212c;
+      --border: #304455;
+      --text: #f0f5f8;
+      --muted: #afbdca;
+      --accent: #aad8ed;
+      --bg-normal: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMjAiIGhlaWdodD0iMTA0IiB2aWV3Qm94PSIwIDAgMzIwIDEwNCI+Cjx0aXRsZT5TbGF0ZSBVSSBhY3Rpb24gbm9ybWFsIGJhY2tncm91bmQ8L3RpdGxlPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZmFjZSIgeDE9IjAiIHgyPSIwIiB5MT0iMCIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiM2NDg1YWIiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMzRkNzEiLz48L2xpbmVhckdyYWRpZW50PjxwYXR0ZXJuIGlkPSJoYXRjaCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNLTMgM0wzLTNNMCAxMkwxMiAwTTkgMTVMMTUgOSIgc3Ryb2tlPSIjYzVjYmQzIiBzdHJva2Utd2lkdGg9IjEuNiIvPjwvcGF0dGVybj48Y2xpcFBhdGggaWQ9ImZpeGVkLWNhcHMiPjxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIxMDQiLz48cmVjdCB4PSIyODgiIHdpZHRoPSIzMiIgaGVpZ2h0PSIxMDQiLz48L2NsaXBQYXRoPjwvZGVmcz4KPHJlY3QgeD0iOCIgeT0iMTgiIHdpZHRoPSIzMDQiIGhlaWdodD0iNzgiIHJ4PSIxOCIgZmlsbD0iIzBjMTIxYyIvPgo8cmVjdCB4PSI4IiB5PSIxMiIgd2lkdGg9IjMwNCIgaGVpZ2h0PSI4NCIgcng9IjE4IiBmaWxsPSIjMTgyOTNmIiBzdHJva2U9IiMxMTE5MjMiIHN0cm9rZS13aWR0aD0iMiIvPgo8cmVjdCB4PSI4IiB5PSI2IiB3aWR0aD0iMzA0IiBoZWlnaHQ9Ijc4IiByeD0iMTgiIGZpbGw9InVybCgjZmFjZSkiIHN0cm9rZT0iIzllYmJkOCIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxwYXRoIGQ9Ik0yNiAxMkgyOTQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgb3BhY2l0eT0iLjI4Ii8+Cgo8L3N2Zz4=");
+      --bg-hover: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMjAiIGhlaWdodD0iMTA0IiB2aWV3Qm94PSIwIDAgMzIwIDEwNCI+Cjx0aXRsZT5TbGF0ZSBVSSBhY3Rpb24gaG92ZXIgYmFja2dyb3VuZDwvdGl0bGU+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJmYWNlIiB4MT0iMCIgeDI9IjAiIHkxPSIwIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzc0OTljMyIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzQ0Njk5NSIvPjwvbGluZWFyR3JhZGllbnQ+PHBhdHRlcm4gaWQ9ImhhdGNoIiB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPjxwYXRoIGQ9Ik0tMyAzTDMtM00wIDEyTDEyIDBNOSAxNUwxNSA5IiBzdHJva2U9IiNjNWNiZDMiIHN0cm9rZS13aWR0aD0iMS42Ii8+PC9wYXR0ZXJuPjxjbGlwUGF0aCBpZD0iZml4ZWQtY2FwcyI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjEwNCIvPjxyZWN0IHg9IjI4OCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjEwNCIvPjwvY2xpcFBhdGg+PC9kZWZzPgo8cmVjdCB4PSI4IiB5PSIxOCIgd2lkdGg9IjMwNCIgaGVpZ2h0PSI3OCIgcng9IjE4IiBmaWxsPSIjMGMxMjFjIi8+CjxyZWN0IHg9IjgiIHk9IjEyIiB3aWR0aD0iMzA0IiBoZWlnaHQ9Ijg0IiByeD0iMTgiIGZpbGw9IiMxODI5M2YiIHN0cm9rZT0iIzExMTkyMyIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxyZWN0IHg9IjgiIHk9IjMiIHdpZHRoPSIzMDQiIGhlaWdodD0iNzgiIHJ4PSIxOCIgZmlsbD0idXJsKCNmYWNlKSIgc3Ryb2tlPSIjOWViYmQ4IiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTI2IDlIMjk0IiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMS44IiBzdHJva2UtbGluZWNhcD0icm91bmQiIG9wYWNpdHk9Ii4yOCIvPgoKPC9zdmc+");
+      --bg-pressed: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMjAiIGhlaWdodD0iMTA0IiB2aWV3Qm94PSIwIDAgMzIwIDEwNCI+Cjx0aXRsZT5TbGF0ZSBVSSBhY3Rpb24gcHJlc3NlZCBiYWNrZ3JvdW5kPC90aXRsZT48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImZhY2UiIHgxPSIwIiB4Mj0iMCIgeTE9IjAiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjM2I1NDc0Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMmEzZTU3Ii8+PC9saW5lYXJHcmFkaWVudD48cGF0dGVybiBpZD0iaGF0Y2giIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTS0zIDNMMy0zTTAgMTJMMTIgME05IDE1TDE1IDkiIHN0cm9rZT0iI2M1Y2JkMyIgc3Ryb2tlLXdpZHRoPSIxLjYiLz48L3BhdHRlcm4+PGNsaXBQYXRoIGlkPSJmaXhlZC1jYXBzIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMTA0Ii8+PHJlY3QgeD0iMjg4IiB3aWR0aD0iMzIiIGhlaWdodD0iMTA0Ii8+PC9jbGlwUGF0aD48L2RlZnM+CjxyZWN0IHg9IjgiIHk9IjE4IiB3aWR0aD0iMzA0IiBoZWlnaHQ9Ijc4IiByeD0iMTgiIGZpbGw9IiMwYzEyMWMiLz4KPHJlY3QgeD0iOCIgeT0iMTIiIHdpZHRoPSIzMDQiIGhlaWdodD0iODQiIHJ4PSIxOCIgZmlsbD0iIzE4MjkzZiIgc3Ryb2tlPSIjMTExOTIzIiBzdHJva2Utd2lkdGg9IjIiLz4KPHJlY3QgeD0iOCIgeT0iMTMiIHdpZHRoPSIzMDQiIGhlaWdodD0iNzgiIHJ4PSIxOCIgZmlsbD0idXJsKCNmYWNlKSIgc3Ryb2tlPSIjOWViYmQ4IiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTI2IDE5SDI5NCIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIuMjgiLz4KCjwvc3ZnPg==");
+      --bg-disabled: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMjAiIGhlaWdodD0iMTA0IiB2aWV3Qm94PSIwIDAgMzIwIDEwNCI+Cjx0aXRsZT5TbGF0ZSBVSSBhY3Rpb24gZGlzYWJsZWQgYmFja2dyb3VuZDwvdGl0bGU+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJmYWNlIiB4MT0iMCIgeDI9IjAiIHkxPSIwIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iIzQ1NGI1NCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzM3M2U0NyIvPjwvbGluZWFyR3JhZGllbnQ+PHBhdHRlcm4gaWQ9ImhhdGNoIiB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPjxwYXRoIGQ9Ik0tMyAzTDMtM00wIDEyTDEyIDBNOSAxNUwxNSA5IiBzdHJva2U9IiNjNWNiZDMiIHN0cm9rZS13aWR0aD0iMS42Ii8+PC9wYXR0ZXJuPjxjbGlwUGF0aCBpZD0iZml4ZWQtY2FwcyI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjEwNCIvPjxyZWN0IHg9IjI4OCIgd2lkdGg9IjMyIiBoZWlnaHQ9IjEwNCIvPjwvY2xpcFBhdGg+PC9kZWZzPgo8cmVjdCB4PSI4IiB5PSIxOCIgd2lkdGg9IjMwNCIgaGVpZ2h0PSI3OCIgcng9IjE4IiBmaWxsPSIjMGMxMjFjIi8+CjxyZWN0IHg9IjgiIHk9IjEyIiB3aWR0aD0iMzA0IiBoZWlnaHQ9Ijg0IiByeD0iMTgiIGZpbGw9IiMxODI5M2YiIHN0cm9rZT0iIzExMTkyMyIgc3Ryb2tlLXdpZHRoPSIyIi8+CjxyZWN0IHg9IjgiIHk9IjkiIHdpZHRoPSIzMDQiIGhlaWdodD0iNzgiIHJ4PSIxOCIgZmlsbD0idXJsKCNmYWNlKSIgc3Ryb2tlPSIjNmY3OTg1IiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTI2IDE1SDI5NCIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjEuOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIuMTAiLz4KPHJlY3QgeD0iOSIgeT0iMTAiIHdpZHRoPSIzMDIiIGhlaWdodD0iNzYiIHJ4PSIxNyIgZmlsbD0idXJsKCNoYXRjaCkiIG9wYWNpdHk9Ii4yMyIgY2xpcC1wYXRoPSJ1cmwoI2ZpeGVkLWNhcHMpIi8+Cjwvc3ZnPg==");
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--background); color: var(--text); font: 16px/1.55 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(1080px, calc(100% - 48px)); margin: 0 auto; padding: 42px 0 28px; }
+    a { color: var(--accent); }
+    a:focus-visible, input:focus-visible { outline: 3px solid #ffd47b; outline-offset: 5px; }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; margin: 0 0 8px; }
+    h1 { margin: 0; font-size: clamp(30px, 5vw, 46px); line-height: 1.15; letter-spacing: -.025em; }
+    .lead { max-width: 720px; color: var(--muted); margin: 14px 0 24px; }
+    h2 { margin: 0 0 10px; font-size: 19px; }
+    .intro-line { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .badge { color: #c0e4ef; border: 1px solid #436572; background: #1a333d; border-radius: 999px; padding: 3px 10px; font-size: 12px; font-weight: 600; }
+    .live-panel { border: 1px solid var(--border); border-radius: 16px; background: var(--panel); padding: 24px; display: grid; grid-template-columns: 1fr auto; gap: 28px; align-items: center; }
+    .live-copy p { color: var(--muted); margin: 0; max-width: 470px; }
+    .playground { width: min(320px, 100%); }
+    .asset-button, .sample-art { position: relative; width: 100%; aspect-ratio: 320 / 104; border: 0; padding: 0; background: transparent var(--bg-normal) center / 100% 100% no-repeat; --label-y: 42.307692%; }
+    .asset-button { display: block; color: #f4f8fb; font: 600 19px/1 system-ui, sans-serif; cursor: pointer; border-radius: 15px; appearance: none; -webkit-appearance: none; touch-action: manipulation; }
+    .asset-label { position: absolute; top: var(--label-y); left: 0; width: 100%; transform: translateY(-50%); display: flex; align-items: center; justify-content: center; gap: 10px; pointer-events: none; }
+    .asset-label img { width: 21px; height: 21px; }
+    .asset-button:enabled:hover { background-image: var(--bg-hover); --label-y: 39.423077%; }
+    .asset-button:enabled:active, .asset-button.keyboard-pressed { background-image: var(--bg-pressed); --label-y: 49.038462%; }
+    .asset-button:focus-visible { outline: 3px solid #ffd47b; outline-offset: 6px; }
+    .asset-button:disabled { background-image: var(--bg-disabled); --label-y: 45.192308%; color: #b4c1ca; cursor: not-allowed; }
+    .asset-button:disabled .asset-label img { opacity: .68; }
+    .enabled-control { display: flex; align-items: center; justify-content: center; gap: 9px; color: var(--muted); font-size: 14px; margin-top: 14px; cursor: pointer; }
+    .enabled-control input { width: 18px; height: 18px; margin: 0; accent-color: #92c7e0; }
+    .status { color: #c6d3dd; margin: 16px 0 0; font-size: 13px; min-height: 2em; }
+    .states { padding: 30px 0; }
+    .section-note { color: var(--muted); margin: 0 0 16px; font-size: 14px; }
+    .state-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    figure { margin: 0; min-width: 0; padding: 14px 12px 12px; border: 1px solid var(--border); border-radius: 12px; background: #111d27; }
+    .sample-art { color: #f4f8fb; font-size: clamp(10px, 1.5vw, 15px); font-weight: 600; line-height: 1; }
+    .sample-art .asset-label { gap: 6px; }
+    .sample-art .asset-label img { width: 16px; height: 16px; }
+    .sample-hover { background-image: var(--bg-hover); --label-y: 39.423077%; }
+    .sample-pressed { background-image: var(--bg-pressed); --label-y: 49.038462%; }
+    .sample-disabled { background-image: var(--bg-disabled); --label-y: 45.192308%; color: #b4c1ca; }
+    .sample-disabled .asset-label img { opacity: .68; }
+    figcaption { color: var(--muted); text-align: center; margin-top: 8px; font-size: 12px; }
+    .full-pack { border-top: 1px solid var(--border); padding-top: 24px; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 24px; }
+    .full-pack p { color: var(--muted); margin: 0; max-width: 640px; font-size: 14px; }
+    .cta { display: inline-block; text-align: center; text-decoration: none; border: 1px solid #83b7d0; background: #c7e4f2; color: #102533; border-radius: 10px; padding: 12px 20px; font-size: 14px; font-weight: 700; white-space: nowrap; }
+    .cta:hover { background: #e2f2f9; }
+    footer { border-top: 1px solid #273846; margin-top: 28px; padding-top: 18px; color: #93a6b5; font-size: 12px; }
+    footer p { margin: 0 0 8px; }
+    @media (max-width: 760px) {
+      main { width: calc(100% - 32px); padding-top: 28px; }
+      .live-panel { grid-template-columns: 1fr; gap: 22px; padding: 20px; }
+      .playground { margin: 0 auto; }
+      .full-pack { grid-template-columns: 1fr; gap: 16px; }
+      .cta { justify-self: start; }
+    }
+    @media (max-width: 540px) {
+      .state-row { grid-template-columns: repeat(4, 178px); overflow-x: auto; padding-bottom: 12px; }
+      .sample-art { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Slate UI Kit · Free sample preview</p>
+      <div class="intro-line"><h1>Try the Ocean button.</h1><span class="badge">5 sample assets</span></div>
+      <p class="lead">A small preview of the $9 interface asset pack. See one action button in its normal, hover, pressed and disabled states, with a single arrow icon.</p>
+    </header>
+
+    <section class="live-panel" aria-labelledby="live-title">
+      <div class="live-copy">
+        <h2 id="live-title">An actual button you can try</h2>
+        <p>Hover, hold and click. Use Tab to focus, then Space or Enter to activate. Turn off the checkbox to see the native disabled state.</p>
+        <p id="activation-status" class="status" role="status">Ready. The sample label is separate from the artwork.</p>
+      </div>
+      <div class="playground">
+        <button id="sample-button" type="button" class="asset-button"><span class="asset-label">Continue<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48dGl0bGU+U2xhdGUgVUkgaWNvbiBhcnJvdy1yaWdodDwvdGl0bGU+PGcgY29sb3I9IiNmMmY2ZmMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTYgMzJINDhNMzQgMThMNDggMzJMMzQgNDYiLz48L2c+PC9zdmc+" alt="" width="21" height="21"></span></button>
+        <label class="enabled-control"><input id="enabled-checkbox" type="checkbox" checked>Enable sample button</label>
+      </div>
+    </section>
+
+    <section class="states" aria-labelledby="states-title">
+      <h2 id="states-title">The four supplied states</h2>
+      <p class="section-note">The same background size in every state. Text and the arrow are overlaid for this preview; they are not baked into the button artwork.</p>
+      <div class="state-row">
+        <figure><div class="sample-art" aria-hidden="true"><span class="asset-label">Continue<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48dGl0bGU+U2xhdGUgVUkgaWNvbiBhcnJvdy1yaWdodDwvdGl0bGU+PGcgY29sb3I9IiNmMmY2ZmMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTYgMzJINDhNMzQgMThMNDggMzJMMzQgNDYiLz48L2c+PC9zdmc+" alt=""></span></div><figcaption>Normal</figcaption></figure>
+        <figure><div class="sample-art sample-hover" aria-hidden="true"><span class="asset-label">Continue<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48dGl0bGU+U2xhdGUgVUkgaWNvbiBhcnJvdy1yaWdodDwvdGl0bGU+PGcgY29sb3I9IiNmMmY2ZmMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTYgMzJINDhNMzQgMThMNDggMzJMMzQgNDYiLz48L2c+PC9zdmc+" alt=""></span></div><figcaption>Hover</figcaption></figure>
+        <figure><div class="sample-art sample-pressed" aria-hidden="true"><span class="asset-label">Continue<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48dGl0bGU+U2xhdGUgVUkgaWNvbiBhcnJvdy1yaWdodDwvdGl0bGU+PGcgY29sb3I9IiNmMmY2ZmMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTYgMzJINDhNMzQgMThMNDggMzJMMzQgNDYiLz48L2c+PC9zdmc+" alt=""></span></div><figcaption>Pressed</figcaption></figure>
+        <figure><div class="sample-art sample-disabled" aria-hidden="true"><span class="asset-label">Continue<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48dGl0bGU+U2xhdGUgVUkgaWNvbiBhcnJvdy1yaWdodDwvdGl0bGU+PGcgY29sb3I9IiNmMmY2ZmMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTYgMzJINDhNMzQgMThMNDggMzJMMzQgNDYiLz48L2c+PC9zdmc+" alt=""></span></div><figcaption>Disabled</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="full-pack" aria-labelledby="pack-title">
+      <div>
+        <h2 id="pack-title">Want both palettes and the other forms?</h2>
+        <p>The full pack includes Ocean and Ember, six button forms with four states, four panels and 24 icons. You get 76 editable SVG sources and 224 PNG files. This preview includes only four Ocean action backgrounds and one arrow icon.</p>
+      </div>
+      <a class="cta" href="https://ithyme7.itch.io/slate-ui-kit" target="_blank" rel="noopener noreferrer">View the full pack · $9 USD</a>
+    </section>
+
+    <footer>
+      <p><strong>Sample permissions:</strong> the five included samples may be used in personal and commercial projects without required attribution. Standalone resale or redistribution as an asset pack is not permitted. See the included LICENSE.txt.</p>
+      <p>The geometry, preview code and text were created with generative AI assistance. These are static 2D assets; engine integrations are unverified. The preview uses system fonts and no analytics or external dependencies. Opening the full-pack link takes you to itch.io.</p>
+    </footer>
+  </main>
+  <script>
+    (function () {
+      'use strict';
+      var button = document.getElementById('sample-button');
+      var enabled = document.getElementById('enabled-checkbox');
+      var status = document.getElementById('activation-status');
+      var activationKey = function (event) { return event.key === ' ' || event.key === 'Enter'; };
+      button.addEventListener('click', function () {
+        status.textContent = 'Activated. The label and this response are preview behavior, separate from the assets.';
+      });
+      button.addEventListener('keydown', function (event) {
+        if (activationKey(event) && !button.disabled) button.classList.add('keyboard-pressed');
+      });
+      button.addEventListener('keyup', function (event) {
+        if (activationKey(event)) button.classList.remove('keyboard-pressed');
+      });
+      button.addEventListener('blur', function () { button.classList.remove('keyboard-pressed'); });
+      enabled.addEventListener('change', function () {
+        button.classList.remove('keyboard-pressed');
+        button.disabled = !enabled.checked;
+        status.textContent = button.disabled
+          ? 'Disabled. The sample button cannot be focused or activated until you enable it.'
+          : 'Enabled. Try hovering, pressing, or focusing with Tab.';
+      });
+    }());
+  </script>
+</body>
+</html>

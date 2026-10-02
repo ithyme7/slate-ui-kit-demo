@@ -1,0 +1,32 @@
+Slate UI Kit 0.1 - Free Sample Asset Use Licence
+
+The publisher grants the recipient permission to use, modify and reproduce
+the five SVG samples embedded in this preview in personal and commercial
+projects, including games, applications, websites, screenshots and promotional
+images. The five samples are the Ocean action normal, hover, pressed and
+disabled backgrounds and the arrow-right icon. Attribution is welcome but
+not required. This licence is non-exclusive.
+
+You may share the samples with collaborators only for your own project.
+They do not receive permission to use the source assets in unrelated projects.
+You may distribute the samples as integrated components of your finished
+project, including editable project files needed by your end users, provided
+the purpose of that project is not to redistribute or sell an asset collection.
+
+You may not sell, sublicense or redistribute this sample collection, its
+individual source assets or modified versions as a standalone asset product,
+stock library, template asset bundle or competing UI pack. Do not claim the
+unaltered original assets were created by you.
+
+The included browser preview code may be copied and modified for your own
+projects. The same restriction against redistribution as an asset product
+applies to the preview and the samples it displays.
+
+The samples and preview are provided as is, without a guarantee of game-engine
+integration or suitability for a particular purpose. Any mandatory rights
+under applicable law continue to apply. You are responsible for separately
+licensing any other content you add to your project.
+
+This licence applies only to the five samples and code delivered in this free
+preview. It does not grant rights to any other Slate UI Kit asset, third-party
+material, platform or trademark. The full paid collection has its own licence.
