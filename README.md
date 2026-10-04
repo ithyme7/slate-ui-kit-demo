@@ -1,10 +1,32 @@
-# Slate UI Kit — five-sample demo
+# Slate UI Kit — free samples and the $9 Unreal menu kit
 
-A free preview of Slate UI Kit 0.1 by **ithyme7**. Try one Ocean action button in four states, with a separate arrow-right icon.
+Five free SVG samples by **ithyme7**, plus a look at the paid Slate UI Kit. The **$9 USD** download on itch.io now includes an editable Unreal project tested in **Unreal Engine 5.8.2** alongside the original SVG/PNG collection.
 
 [Get the full Slate UI Kit on itch.io — $9 USD](https://ithyme7.itch.io/slate-ui-kit)
 
-The full pack includes Ocean and Ember palettes, six button forms with four states, four panels and 24 icons: **76 editable SVG sources and 224 PNG files**.
+The full pack includes Ocean and Ember palettes, six button forms with four states, four panels and 24 icons: **76 editable SVG sources and 224 PNG files**. The separate native Unreal 0.2 download is included at the same minimum price.
+
+## Inside the paid Unreal project
+
+These are actual captures from Unreal Engine 5.8.2, using the editable UMG project included in the paid download.
+
+**Ocean — native main menu**
+
+![Actual Ocean main menu rendered in Unreal Engine 5.8.2](https://img.itch.zone/aW1hZ2UvNTA4OTE0MC8zMDUzNTAwMi5wbmc=/original/W9z6Sr.png)
+
+**Ember — native main menu**
+
+![Actual Ember main menu rendered in Unreal Engine 5.8.2](https://img.itch.zone/aW1hZ2UvNTA4OTE0MC8zMDUzNTAwMC5wbmc=/original/4J2UqK.png)
+
+**Ocean — native options page**
+
+![Actual Ocean options page rendered in Unreal Engine 5.8.2](https://img.itch.zone/aW1hZ2UvNTA4OTE0MC8zMDUzNTAwMS5wbmc=/original/DVrhVg.png)
+
+The native download provides Ocean and Ember menu palettes with editable Main, Options, About and Sample Button pages, plus an Overview map. Page-navigation delegates, option-state callbacks and widget compile/save/reload were checked in Unreal Engine 5.8.2. Physical pointer and gamepad input were not manually tested. Gameplay, audio and persistent settings are not included.
+
+[Get the SVG/PNG collection and editable Unreal project — $9 USD](https://ithyme7.itch.io/slate-ui-kit)
+
+The images illustrate the paid project; they are not free sample assets. This repository contains only the five original SVG samples and browser preview. The Unreal project is a separate paid download and does not run inside the browser preview.
 
 ## Included here
 
@@ -38,4 +60,4 @@ These are the existing sample terms. This repository grants no rights to the res
 
 The asset geometry, preview code and accompanying text were created with generative AI assistance. The geometry was built using code and visually reviewed. No third-party artwork or font files are included.
 
-These are static 2D interface assets. Game-engine integration and compatibility are unverified; no engine plugin or complete UI framework is included. The samples and preview are provided as is under the included licence.
+The five free samples here are static 2D art, and their interactive preview uses browser HTML/CSS/JS. The separate paid Unreal project was tested in Unreal Engine 5.8.2; compatibility with other engine versions and physical pointer/gamepad input remain unverified. Native widgets and their accompanying text were also created with generative AI assistance and checked using the disclosed tests. The samples and browser preview are provided as is under the included licence.
