@@ -12,7 +12,7 @@ These are actual captures from Unreal Engine 5.8.2, using the editable UMG proje
 
 **Ocean — native main menu**
 
-![Actual Ocean main menu rendered in Unreal Engine 5.8.2](https://img.itch.zone/aW1hZ2UvNTA4OTE0MC8zMDUzNTAwMi5wbmc=/original/W9z6Sr.png)
+![Actual Ocean main menu rendered in Unreal Engine 5.8.2](https://img.itch.zone/aW1hZ2UvNTA4OTE0MC8zMDUzNTAwMS5wbmc=/original/DVrhVg.png)
 
 **Ember — native main menu**
 
@@ -20,7 +20,7 @@ These are actual captures from Unreal Engine 5.8.2, using the editable UMG proje
 
 **Ocean — native options page**
 
-![Actual Ocean options page rendered in Unreal Engine 5.8.2](https://img.itch.zone/aW1hZ2UvNTA4OTE0MC8zMDUzNTAwMS5wbmc=/original/DVrhVg.png)
+![Actual Ocean options page rendered in Unreal Engine 5.8.2](https://img.itch.zone/aW1hZ2UvNTA4OTE0MC8zMDUzNTAwMi5wbmc=/original/W9z6Sr.png)
 
 The native download provides Ocean and Ember menu palettes with editable Main, Options, About and Sample Button pages, plus an Overview map. Page-navigation delegates, option-state callbacks and widget compile/save/reload were checked in Unreal Engine 5.8.2. Physical pointer and gamepad input were not manually tested. Gameplay, audio and persistent settings are not included.
 
