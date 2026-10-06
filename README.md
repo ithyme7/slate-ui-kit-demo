@@ -42,6 +42,10 @@ Other button forms, the Ember palette, panels, the other icons, PNG exports, wid
 
 ## Try the preview
 
+[Open the live five-sample browser preview](https://ithyme7.github.io/slate-ui-kit-demo/).
+
+The live preview links to the full $9 USD kit on itch.io; it contains only the five free samples, and the paid Unreal project does not run in the browser.
+
 Download the repository and open `index.html` in a browser, or serve that file with a local static web server. All styles, scripts and sample images are embedded; the preview needs no framework, installed dependency or remote asset service. Direct file opening has not been independently verified.
 
 Hover over the button, hold it to see the pressed state, or use Tab followed by Space or Enter. Clear **Enable sample button** to see the native disabled state. The smaller comparison row shows the four supplied states. On narrow screens, that row can scroll horizontally.
