@@ -4,6 +4,8 @@ Five free SVG samples by **ithyme7**, plus a look at the paid Slate UI Kit. The 
 
 [Get the full Slate UI Kit on itch.io — $9 USD](https://ithyme7.itch.io/slate-ui-kit)
 
+[View the Unreal listing on Fab](https://www.fab.com/listings/8ba3a5fa-a76b-4ac0-9d30-9091c70ae972). Purchases on Fab use its Standard License; the itch.io download uses the licence included with that download. This repository still contains only the five free samples.
+
 The full pack includes Ocean and Ember palettes, six button forms with four states, four panels and 24 icons: **76 editable SVG sources and 224 PNG files**. The separate native Unreal 0.2 download is included at the same minimum price.
 
 ## Inside the paid Unreal project
